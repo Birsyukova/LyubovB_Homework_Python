@@ -1,7 +1,7 @@
 def print_number(num):
-  print(num)
-phone_number_digits = [8, 8, 0, 0, 5, 5, 5, 3, 5, 3, 5]
+    print(num)
+    
+number_to_print = "88005553535"
 
-for digit in phone_number_digits:
-  print_number(digit)
-
+for _ in range(11):
+    print_number(number_to_print)
