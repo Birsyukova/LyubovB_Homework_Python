@@ -2,7 +2,7 @@ import requests
 import pytest
 import uuid
 
-API_KEY = "jNDA-EM8FOPoQDLgUrQqelliTLnIZKJndjBdfXFEcTtOm+YkV8CZxDps1RkXJ0jg"
+API_KEY = ""
 BASE_URL = "https://ru.yougile.com"
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
