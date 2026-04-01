@@ -2,7 +2,7 @@ import pytest
 from sqlalchemy import create_engine, text
 
 # Укажите вашу строку подключения
-CONNECTION_STRING = "postgresql://postgres:1703@localhost:5432/postgres"
+CONNECTION_STRING = ""
 
 @pytest.fixture
 def db_connection():
